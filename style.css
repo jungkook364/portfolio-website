@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+
+
+    .navbar{
+        display: flex;
+        height:60px;
+        background-color: #BDBD9B;
+        align-items: center;
+        justify-content: space-around;
+
+        p{
+            text-transform: uppercase;
+            font-size: 30px;
+            font-style: times new roman;
+            padding-left: 60px;
+        }
+        ol{
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            text-transform: capitalize;
+            font-size: 20px;
+
+            li{
+                a{
+                  text-decoration: none;
+                  color: black;
+                }
+                
+            }
+        }
+    }
+    row-gap: 2px;
+
+    .para{
+        display: flex;
+        background-color: #FFFFF0;
+    }
+
+    .img{
+        height: 500px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        
+        
+        img{
+            padding-top: 90px;
+            padding-left: 190px;
+            height: 400px;
+            
+        }
+        
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        height: 570px;
+        justify-content: center ;
+        
+        row-gap: 2px;
+        padding-left: 150px;
+        text-align: left;
+
+        h1{
+            
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+         p{
+            text-align: justify;
+            width: 500px;
+            
+         }
+         .btn{
+            display: flex;
+            gap: 50px;
+            
+            
+            
+            button{
+                    
+                width: 100px;
+                height: 40px;
+                background-color: #BDBD9B;
+                border: none;
+                border-radius: 5px;
+                
+                
+                
+            }
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+
+         }
+
+        }
+        }
+
+       
+
+        .skills{
+            height:650px;
+            .tech{
+
+                p{
+                    font-size: 30px;
+                    
+                }
+            }
+        }

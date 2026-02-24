@@ -1,0 +1,75 @@
+    /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main section */
+.skills {
+    padding: 60px 10%;
+    background-color: #f5f7fa;
+    text-align: center;
+}
+
+.skills h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.skills h4 {
+    font-weight: normal;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Grid Container */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 per row */
+    gap: 25px;
+}
+
+/* Skill Cards */
+.container > div {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    text-align: left;
+    
+}
+
+/* Hover Effect */
+.container > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+/* Headings inside cards */
+.container h2 {
+    margin-bottom: 15px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+/* List styling */
+.container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.container li {
+    margin-bottom: 8px;
+    color: #555;
+    text-transform: capitalize;
+}
+
+/* Responsive (Mobile) */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* 1 per row */
+    }
+}
